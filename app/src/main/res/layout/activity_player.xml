@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textColor="#BBBBBB"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="PREV"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1DB954"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="PAUSE"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1DB954"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="NEXT"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1DB954"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
